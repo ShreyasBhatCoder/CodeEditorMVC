@@ -10,8 +10,6 @@
     flex-direction: column;
     height: 100vh;
     overflow: hidden;
-    border-right: 1px solid white;
-    border-bottom: 1px solid white;
 }
 
 #dash-page > .row {
@@ -62,7 +60,7 @@
 }
 
 #line-number {
-    background-color: #575656;
+    background-color: #8d8b8b;
     margin-top: 0;
     width: 12px;
     flex: none; /* Prevents it from shrinking */
@@ -86,6 +84,7 @@
     overflow: auto; /* Enables both horizontal and vertical scrollbars */
     white-space: pre; /* Prevents text from wrapping, causing horizontal scroll */
     height: 100%;
+    background-color: #575656;
 }
 
 [contenteditable] {
