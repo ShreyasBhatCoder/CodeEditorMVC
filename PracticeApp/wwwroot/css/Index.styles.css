@@ -1,0 +1,87 @@
+﻿body {
+  background-color: #333;
+}
+
+#main {
+    height: 100vh;
+    color: #f2f2f2;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+#dash-page > .row {
+    margin: 7px;
+}
+
+#topbar ul {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+#topbar {
+    background-color: #454343;
+    overflow: hidden;
+}
+
+#file-nav {
+    border: 1px solid white;
+    height: 30px;
+    margin: 0px;
+}
+
+#topbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#topbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#topbar li {
+    list-style-type: none;
+}
+
+#sidebar {
+    background-color: #454343;
+    padding: 30px;
+    height: 100vh;
+    color: #f2f2f2;
+}
+
+#line-number {
+    background-color: #575656;
+    margin-top: 0;
+    height: 100vh; /* Change from 100vh to 100% */
+    width: 12px;
+}
+
+
+#code-area {
+    margin: 0;
+    border: 1px solid red;
+}
+
+#text-div {
+    padding-left: 10px;
+    border: 1px solid white;
+    height: 100vh;
+}
+
+[contenteditable] {
+    outline: 0px solid transparent;
+}
+@media only screen and (max-width: 768px) {
+    #sidebar {
+        height: inherit;
+    }
+    #main {
+        padding: 7px 0 0 0;
+    }
+}

@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<link rel="stylesheet" href="~/css/Index.styles.css" />
+
+<div id="dash-page">
+    <div class="row" id="topbar">
+        <ul>
+            <li><a href="#">New</a></li>
+            <li><a href="#">Open</a></li>
+            <li><a href="#">Save</a></li>
+            <li><a href="#">Save As...</a></li>
+        </ul>
+    </div>
+    <div class="row">
+        <div id="sidebar" draggable="true" class="col-md-3">
+            <h4>This is a sidebar</h4>
+        </div>
+        <div id="main" class="col-md-9 container-fluid">
+            <div id="file-nav" class="row"></div>
+            <div class="row" id="code-area">
+                <div id="line-number" class="col-1">
+                    1
+                    2
+                    3
+                </div>
+                <div id="text-div" class="col-11" contenteditable="true"></div>
+            </div>
+        </div>
+    </div>
+</div>
